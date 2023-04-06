@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Racoon Tienda de Ropa</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+    <div class="contenedor">
+        <aside>
+            <header class="header-logo">
+                <h1 class="logo">Racoon Zapatillas Store</h1>
+                <img src="imagenes/animal-g133ca7368_640.png" class="animal">
+            </header>
+            <nav>
+                <ul class="menu" id="lista-carrito">
+                    <li><button class="boton" id="todos"><i class="bi bi-hand-index-thumb-fill"></i>Modelos de
+                            Zapatillas</button></li>
+                    <li><button class="boton" id="nike"><i class="bi bi-hand-index-thumb"></i>Nike</button></li>
+                    <li><button class="boton" id="converse"><i class="bi bi-hand-index-thumb"></i>Converse</button></li>
+                   
+
+                </ul>
+                    
+            </nav>
+           
+              
+            <footer>
+                <p>© Todos los Derechos reservados </p>
+            </footer>
+        </aside>
+        <section>
+            <h2 class="titulo">Todos los productos</h2>
+            <div class="contenedor-productos" id="contenedor-productos">
+            </div>
+                <div id="carrito" class="carrito-producto">
+                    <h2>Carrito de compras</h2>
+                    <ul id="lista-productos"></ul>
+                    <p>Total: $<span id="precio-total">0</span></p>
+                  
+                  
+                  
+
+
+                </div>
+        </section>
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
